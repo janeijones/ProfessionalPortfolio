@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;600&display=swap');
+
+:root {
+  --navy: #5C6E91; 
+  --pale: #EEEDED;
+  --maroon: #8F384D;
+  --gold: #DD9866;
+  --nude: #EBD8B7;
+  --beige: #C2B092; 
+  --egg: #ffff;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gold);
+ }
+
+header {
+  display: flex;
+  padding: 20px;  /* check this */
+  background-color: var(--egg);
+  font-size: 20px;
+  align-items: center; 
+  width: 100%;
+}
+
+header nav { 
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+ }
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li { /* UL CLASS */
+  display: inline-block;
+  margin-left: 25px; 
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin: 0px 300px;
+}
+
+a {
+  color: var(--maroon);
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.portfolio {
+  height: 300px;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 24px;
+  color: var(--pale);
+}
+
+#projects h2 {
+  width: 1px;
+  word-wrap: break-word;
+  float:left;
+  white-space: pre-wrap;
+  margin: 0px 20px;
+}
+
+
+
+
+
