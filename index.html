@@ -21,22 +21,22 @@
 
 <body>
   <header>
-        <!-- <img class="logo" src="assets/images/logo.png" alt="Name logo"> -->
-        <nav class = "navbar fixed-top navbar-expand-md">
-          <div class = "container">
-          <img class="logo navbar-brand" src="assets/images/logo.png" alt="Name logo"> 
-          <ul class = "navbar-nav">
-            <li class = "nav-item"> <a class = "nav-link" href='#about-me'> ABOUT ME</a>
-            <li class = "nav-item"> <a class = "nav-link" href='#projects'> PROJECTS </a></li>
-            <li class = "nav-item"> <a class = "nav-link" href='#contact-me'> CONTACT ME</a></li>
-            <li class = "nav-item"> <a class = "nav-link" href='#resume'> RESUME</a></li>
-          </ul>
-        </nav>
-      </div>
+    <!-- <img class="logo" src="assets/images/logo.png" alt="Name logo"> -->
+    <nav class="navbar fixed-top navbar-expand-md">
+      <div class="container">
+        <img class="logo navbar-brand" src="assets/images/logo.png" alt="Name logo">
+        <ul class="navbar-nav">
+          <li class="nav-item"> <a class="nav-link" href='#about-me'> ABOUT ME</a>
+          <li class="nav-item"> <a class="nav-link" href='#projects'> PROJECTS </a></li>
+          <li class="nav-item"> <a class="nav-link" href='#contact-me'> CONTACT ME</a></li>
+          <li class="nav-item"> <a class="nav-link" href='#resume'> RESUME</a></li>
+        </ul>
+    </nav>
+    </div>
   </header>
 
   <main>
-    <section id="about-me" class="container portfolio">
+    <div id="about-me" class="container portfolio">
       <div class="row">
         <div class="col-md-12">
           <img src="./assets/images/janei.jpg" alt="Picture of Janei" class="float-left circular_image">
@@ -51,31 +51,54 @@
             enthusiasm, and problem solving abilities to a collaborative team environment.
           </p>
         </div>
-    </section>
-
-    <section id="projects" class="container portfolio">
-      <div class="col-md-12">
-        <h2>P R O J E C T S</h2>
-
-        <img src="./assets/images/placeholder.png" class="float-left">
-        <img src="./assets/images/placeholder.png" class="float-right">
-
       </div>
+
+      <div id="projects" class="portfolio">
+        <div class="col-md-8">
+          <h2>P R O J E C T S</h2>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <h5 class = "card-header">Password Generator</h5>
+                <img src="./assets/images/placeholder.png" class="card-img-top" alt="Password Generator Demo">
+                <div class="card-body">
+                  <p class="card-text">Password generator used to </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <h5 class="card-header">Superhero Quiz</h5>
+                <img src="./assets/images/placeholder.png" class="card-img-top" alt="Superhero Quiz">
+                <div class="card-body">
+                  <p class="card-text">Marvel super hero quiz utilizes Giphy and Youtube APIs to highlight which superhero you are most like.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- <img src="./assets/images/placeholder.png" class="float-left">
+          <img src="./assets/images/placeholder.png" class="float-right"> -->
+
+        </div>
       </div>
-    </section>
-
-
-
-
-
-  </main>
+    </div>
 
 
 
 
 
 
-  <!--- <div class="container">
+
+
+
+
+
+
+    <!--- <div class="container">
     <h1>Janei Jones</h1>
     <h2>UI / UX Developer</h2>
 
@@ -93,6 +116,15 @@
 --->
 
 
+    <footer class=”container mt-4">
+      <div class=”row”>
+        <div class=”col-md-12”>
+          <p class=”text-center”>Design by <a href=”#”>Aliens</a></p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
 </body>
 
 </html>
