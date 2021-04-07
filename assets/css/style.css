@@ -23,7 +23,6 @@ body {
 
 header {
   display: flex;
-  padding: 20px;  /* check this */
   background-color: var(--egg);
   font-size: 20px;
   align-items: center; 
@@ -52,6 +51,7 @@ header nav ul li { /* UL CLASS */
 .float-right {
   float: right;
   margin-left: 25px;
+  justify-content: space-between;
 }
 
 main {
@@ -61,18 +61,18 @@ main {
 }
 
 
-.logo {
+header .logo {
   width: 150px;
   height: 150px;
   margin: 0px 300px;
 }
 
-a {
+nav a {
   color: var(--maroon);
   text-decoration: none;
 }
 
-p {
+section p {
   font-size: 18px;
   font-family: 'Source Serif Pro', serif;
 }
@@ -80,7 +80,18 @@ p {
 .portfolio {
   height: 300px;
   padding: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
+}
+
+.circular_image{
+  float:left;
+  margin-left:125px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Modified*/
+  /*overflow:hidden;*/
+  background-color: blue; 
 }
 
 h2 {
@@ -91,7 +102,7 @@ h2 {
 #projects h2 {
   width: 1px;
   word-wrap: break-word;
-  float:left;
+  justify-content: start;
   white-space: pre-wrap;
   margin: 0px 20px;
 }
